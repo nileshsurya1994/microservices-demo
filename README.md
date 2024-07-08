@@ -2,7 +2,7 @@
 
 # DEPRECATED: Sock Shop : A Microservice Demo Application
 ## https://chatgpt.com/share/1b5593f0-33ca-4f46-b807-0cdedf2ea35a
-
+## https://chatgpt.com/share/808e2410-113b-4d03-9d11-208ee2f3d2ed
 The application is the user-facing part of an online shop that sells socks. It is intended to aid the demonstration and testing of microservice and cloud native technologies.
 
 It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Go kit](http://gokit.io) and [Node.js](https://nodejs.org/) and is packaged in Docker containers.
