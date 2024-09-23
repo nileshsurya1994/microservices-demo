@@ -1,6 +1,6 @@
 global:
     # How frequently to scrape targets by default.
-    scrape_interval: 1m
+    scrape_interval: 15s
     # How long until a scrape request times out.
     scrape_timeout: 10s
     # How frequently to evaluate rules.
@@ -16,6 +16,10 @@ alerting:
       - alertmanager:9093
 
 scrape_configs:
+    - job_name: 'microservices'
+      static_configs:
+        - targets: ['44.204.149.213:9090']
+
     - job_name: "frontend"
       scrape_interval: 5s
       metrics_path: 'metrics'
